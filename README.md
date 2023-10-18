@@ -1,6 +1,6 @@
-# Marketing materials for Fontlab apps 
+# Marketing materials for FontLab 8 and other Fontlab Ltd. apps 
 
-Publicly available marketing materials / “press kit” for [Fontlab Ltd.](https://www.fontlab.com/) apps. 
+Publicly available marketing materials / “press kit” for [Fontlab Ltd.](https://www.fontlab.com/) apps: FontLab 8 and TransType 4. 
 
 ## Download
 
