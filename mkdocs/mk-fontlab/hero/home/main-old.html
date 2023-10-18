@@ -1,0 +1,40 @@
+{% extends "main.html" %}
+
+<!-- Site title -->
+{% block htmltitle %}
+<title>{{ config.site_name }}</title>
+{% endblock %}
+
+<!-- Theme-related style sheets -->
+{% block styles %} {{ super() }}
+
+<!-- Extra style sheet (can't be set in mkdocs.yml due to content hash) -->
+<link rel="stylesheet"
+      href="css/home-old.css" />
+
+<!-- Hack: detect Safari, so we can hack around problems with containment -->
+<script>
+    if (navigator.vendor === "Apple Computer, Inc.")
+        document.documentElement.classList.add("safari");
+</script>
+{% endblock %}
+
+{% block scripts %} {{ super() }}
+<script>
+    window.addEventListener('DOMContentLoaded', function () {
+        document.getElementById('hero-section').className += " opaque"
+    });
+</script>
+
+{% endblock %}
+
+
+<!-- Header -->
+{% block header %}
+{% endblock %}
+
+<!-- Parallax container with contents -->
+{% block hero %} {% include "hero/home/partials/index.html" %} {% endblock %}
+
+<!-- Navigation tabs (collapsing) -->
+{% block tabs %}{% endblock %}

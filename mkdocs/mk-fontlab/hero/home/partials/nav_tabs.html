@@ -1,0 +1,13 @@
+{% set class = "" %}
+
+<!-- Navigation tabs -->
+<nav class="md-tabs-inbody"
+     aria-label="{{ lang.t('tabs.title') }}">
+    <div class="md-tabs__inner">
+        <ul class="uk-grid md-tabs__list">
+            {% for nav_item in nav %}
+            {% include "partials/tabs-item.html" %}
+            {% endfor %}
+        </ul>
+    </div>
+</nav>

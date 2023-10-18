@@ -1,0 +1,333 @@
+@charset "UTF-8";
+@import "vars.css";
+
+.keys.mac::before,
+.keys.M::before {
+    content: 'Mac';
+}
+
+.keys.win::before,
+.keys.W::before {
+    content: 'Win';
+}
+
+.keys.mac::before,
+.keys.M::before,
+.keys.win::before,
+.keys.W::before {
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    font-family: var(--md-smcp-font-family, _);
+    font-weight: 600;
+    font-size: 60%;
+    vertical-align: 0.5em;
+    color: #c0c1c2;
+}
+
+.md-typeset kbd {
+    display: inline-block;
+    margin: 0 2px;
+    padding: 1px 5px;
+    white-space: nowrap;
+    vertical-align: baseline;
+    color: #37474f;
+    border: 1px solid rgba(0, 1, 2, .08);
+    border-radius: 5px;
+    background-color: rgba(0, 1, 2, .02);
+    box-shadow: none;
+    text-shadow: 0 2px 0 rgba(253, 254, 255, 1);
+    font-size: 0.9em;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 0.8rem;
+}
+
+.md-typeset .keys .key-alt,
+.md-typeset .keys .key-left-alt,
+.md-typeset .keys .key-right-alt,
+.md-typeset .keys .key-command,
+.md-typeset .keys .key-left-command,
+.md-typeset .keys .key-right-command,
+.md-typeset .keys .key-control,
+.md-typeset .keys .key-left-control,
+.md-typeset .keys .key-right-control,
+.md-typeset .keys .key-meta,
+.md-typeset .keys .key-left-meta,
+.md-typeset .keys .key-right-meta,
+.md-typeset .keys .key-option,
+.md-typeset .keys .key-left-option,
+.md-typeset .keys .key-right-option,
+.md-typeset .keys .key-shift,
+.md-typeset .keys .key-left-shift,
+.md-typeset .keys .key-right-shift,
+.md-typeset .keys .key-super,
+.md-typeset .keys .key-left-super,
+.md-typeset .keys .key-right-super,
+.md-typeset .keys .key-windows,
+.md-typeset .keys .key-left-windows,
+.md-typeset .keys .key-right-windows,
+.md-typeset .keys .key-arrow-down,
+.md-typeset .keys .key-arrow-left,
+.md-typeset .keys .key-arrow-right,
+.md-typeset .keys .key-arrow-up,
+.md-typeset .keys .key-backspace,
+.md-typeset .keys .key-backtab,
+.md-typeset .keys .key-caps-lock,
+.md-typeset .keys .key-clear,
+.md-typeset .keys .key-context-menu,
+.md-typeset .keys .key-delete,
+.md-typeset .keys .key-eject,
+.md-typeset .keys .key-end,
+.md-typeset .keys .key-escape,
+.md-typeset .keys .key-home,
+.md-typeset .keys .key-insert,
+.md-typeset .keys .key-page-down,
+.md-typeset .keys .key-page-up,
+.md-typeset .keys .key-print-screen,
+.md-typeset .keys .key-tab,
+.md-typeset .keys .key-num-enter,
+.md-typeset .keys .key-enter {
+    font-family: var(--md-cond-font-family, _);
+}
+
+.md-typeset .keys kbd::before,
+.md-typeset .keys kbd::after {
+    position: relative;
+    margin: 0;
+    color: inherit;
+    -moz-osx-font-smoothing: initial;
+    -webkit-font-smoothing: initial;
+    color: #c0c1c2;
+}
+
+.md-typeset .keys span {
+    padding: 0 px2em(3.2px);
+    color: var(--md-default-fg-color--light);
+}
+
+.md-typeset .keys .key-alt::before {
+    padding-right: px2em(6.4px);
+    content: "⎇";
+}
+
+.md-typeset .keys .key-left-alt::before {
+    padding-right: px2em(6.4px);
+    content: "⎇";
+}
+
+.md-typeset .keys .key-right-alt::before {
+    padding-right: px2em(6.4px);
+    content: "⎇";
+}
+
+.md-typeset .keys .key-command::before {
+    padding-right: px2em(6.4px);
+    content: "⌘";
+}
+
+.md-typeset .keys .key-left-command::before {
+    padding-right: px2em(6.4px);
+    content: "⌘";
+}
+
+.md-typeset .keys .key-right-command::before {
+    padding-right: px2em(6.4px);
+    content: "⌘";
+}
+
+.md-typeset .keys .key-control::before {
+    padding-right: px2em(6.4px);
+    content: "⌃";
+}
+
+.md-typeset .keys .key-left-control::before {
+    padding-right: px2em(6.4px);
+    content: "⌃";
+}
+
+.md-typeset .keys .key-right-control::before {
+    padding-right: px2em(6.4px);
+    content: "⌃";
+}
+
+.md-typeset .keys .key-meta::before {
+    padding-right: px2em(6.4px);
+    content: "◆";
+}
+
+.md-typeset .keys .key-left-meta::before {
+    padding-right: px2em(6.4px);
+    content: "◆";
+}
+
+.md-typeset .keys .key-right-meta::before {
+    padding-right: px2em(6.4px);
+    content: "◆";
+}
+
+.md-typeset .keys .key-option::before {
+    padding-right: px2em(6.4px);
+    content: "⌥";
+}
+
+.md-typeset .keys .key-left-option::before {
+    padding-right: px2em(6.4px);
+    content: "⌥";
+}
+
+.md-typeset .keys .key-right-option::before {
+    padding-right: px2em(6.4px);
+    content: "⌥";
+}
+
+.md-typeset .keys .key-shift::before {
+    padding-right: px2em(6.4px);
+    content: "⇧";
+}
+
+.md-typeset .keys .key-left-shift::before {
+    padding-right: px2em(6.4px);
+    content: "⇧";
+}
+
+.md-typeset .keys .key-right-shift::before {
+    padding-right: px2em(6.4px);
+    content: "⇧";
+}
+
+.md-typeset .keys .key-super::before {
+    padding-right: px2em(6.4px);
+    content: "❖";
+}
+
+.md-typeset .keys .key-left-super::before {
+    padding-right: px2em(6.4px);
+    content: "❖";
+}
+
+.md-typeset .keys .key-right-super::before {
+    padding-right: px2em(6.4px);
+    content: "❖";
+}
+
+.md-typeset .keys .key-windows::before {
+    padding-right: px2em(6.4px);
+    content: "⊞";
+}
+
+.md-typeset .keys .key-left-windows::before {
+    padding-right: px2em(6.4px);
+    content: "⊞";
+}
+
+.md-typeset .keys .key-right-windows::before {
+    padding-right: px2em(6.4px);
+    content: "⊞";
+}
+
+.md-typeset .keys .key-arrow-down::before {
+    padding-right: px2em(6.4px);
+    content: "";
+}
+
+.md-typeset .keys .key-arrow-left::before {
+    padding-right: px2em(6.4px);
+    content: "";
+}
+
+.md-typeset .keys .key-arrow-right::before {
+    padding-right: px2em(6.4px);
+    content: "";
+}
+
+.md-typeset .keys .key-arrow-up::before {
+    padding-right: px2em(6.4px);
+    content: "";
+}
+
+.md-typeset .keys .key-backspace::before {
+    padding-right: px2em(6.4px);
+    content: "⌫";
+}
+
+.md-typeset .keys .key-backtab::before {
+    padding-right: px2em(6.4px);
+    content: "⇤";
+}
+
+.md-typeset .keys .key-caps-lock::before {
+    padding-right: px2em(6.4px);
+    content: "⇪";
+}
+
+.md-typeset .keys .key-clear::before {
+    padding-right: px2em(6.4px);
+    content: "⌧";
+}
+
+.md-typeset .keys .key-context-menu::before {
+    padding-right: px2em(6.4px);
+    content: "☰";
+}
+
+.md-typeset .keys .key-delete::before {
+    padding-right: px2em(6.4px);
+    content: "⌦";
+}
+
+.md-typeset .keys .key-eject::before {
+    padding-right: px2em(6.4px);
+    content: "⏏";
+}
+
+.md-typeset .keys .key-end::before {
+    padding-right: px2em(6.4px);
+    content: "⤓";
+}
+
+.md-typeset .keys .key-escape::before {
+    padding-right: px2em(6.4px);
+    content: "⎋";
+}
+
+.md-typeset .keys .key-home::before {
+    padding-right: px2em(6.4px);
+    content: "⤒";
+}
+
+.md-typeset .keys .key-insert::before {
+    padding-right: px2em(6.4px);
+    content: "⎀";
+}
+
+.md-typeset .keys .key-page-down::before {
+    padding-right: px2em(6.4px);
+    content: "⇟";
+}
+
+.md-typeset .keys .key-page-up::before {
+    padding-right: px2em(6.4px);
+    content: "⇞";
+}
+
+.md-typeset .keys .key-print-screen::before {
+    padding-right: px2em(6.4px);
+    content: "⎙";
+}
+
+.md-typeset .keys .key-tab::after {
+    padding-left: px2em(6.4px);
+    content: "⇥";
+}
+
+.md-typeset .keys .key-num-enter::after {
+    padding-left: px2em(6.4px);
+    content: "⌤";
+}
+
+.md-typeset .keys .key-enter::after {
+    padding-left: px2em(6.4px);
+    content: "⏎";
+}
+
+/*# sourceMappingURL=200801-keys.css.map */

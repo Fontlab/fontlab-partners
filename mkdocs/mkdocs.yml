@@ -1,0 +1,167 @@
+docs_dir: md/
+site_dir: site/
+use_directory_urls: true
+
+extra:
+  homepage: https://help.fontlab.com/fontlab/8/
+
+# Project information
+site_name: FontLab 8
+site_description: FontLab 8 Help site
+site_url: https://help.fontlab.com/fontlab/8/
+
+
+extra:
+  analytics:
+    provider: google
+    property: UA-313999-1
+  tags:
+    beta: beta
+  generator: false
+
+site_author: Fontlab Ltd.
+
+# Copyright
+copyright: Copyright © 2016–2023 <a target="_blank" href="https://www.fontlab.com/">Fontlab Ltd.</a>
+
+# Documentation and theme
+theme:
+  name: material
+  custom_dir: mk-fontlab
+  font:
+    text: system-ui
+    code: monospaced-font
+  features:
+    # - navigation.instant
+    # - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+    - header.autohide
+    - toc.follow
+  palette:
+    - scheme: default
+      accent: indigo
+      primary: indigo
+
+  logo: "https://i.fontlab.com/temp/fl8-pictogram.svg"
+
+  icon:
+    tag:
+      beta: material/beta
+
+extra_css:
+  - "https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Condensed&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500;1,700&IBM+Plex+Serif:ital@0;1&family=Roboto+Flex:opsz,slnt,wdth,wght,GRAD,YTAS,YTDE,YTFI,YTLC,YTUC@8..144,0,25..150,100..1000,-100..100,663..750,-203..-180,676..738,514,650..712&family=Literata:opsz,wght@7..72,200..900&family=Inter:wght@400;500;600&family=Pathway+Gothic+One&family=Ultra&family=VT323&family=Work+Sans:wght@200;300;400;500&display=block"
+  - "https://cdn.jsdelivr.net/npm/uikit@3.13.10/dist/css/uikit.min.css"
+  - "css/wfnav.css"
+  - "css/extra.css"
+  - "css/keys.css"
+  - "https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css"
+  - "https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"
+  - "https://cdn.jsdelivr.net/npm/img-comparison-slider@7.6.0/dist/styles.css"
+  - "https://cdn.jsdelivr.net/npm/tooltipster@4.2.8/dist/css/tooltipster.bundle.min.css"
+  - "https://cdn.jsdelivr.net/npm/tooltipster@4.2.8/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-borderless.min.css"
+
+plugins:
+  - markdown-in-template
+  - search
+  - awesome-pages: # https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin
+      filename: pages.yml
+      collapse_single_pages: true
+      strict: true
+  - include-markdown # https://github.com/mondeja/mkdocs-include-markdown-plugin
+  - tags:
+      tags_file: reference/topics.md
+  - pagenav-generator # https://github.com/Andre601/mkdocs-pagenav-generator
+  - ezlinks: # https://github.com/orbikm/mkdocs-ezlinks-plugin
+      warn_ambiguities: true
+      wikilinks: true
+      reference_links: false
+  # - tooltipster-links # BAD PRETTY-PRINTING CAUSES SPACES INSIDE TAGS https://github.com/Mara-Li/mkdocs-preview-links-plugin
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - meta
+  - md_in_html
+  - toc:
+      permalink: true
+      title: Contents
+      toc_depth: 3
+  - smarty:
+      smart_angled_quotes: false
+      smart_dashes: true
+      smart_ellipses: true
+      smart_quotes: true
+      substitutions:
+        ellipsis: …
+        left-angle-quote: «
+        left-double-quote: “
+        left-single-quote: ‘
+        mdash: —
+        ndash: –
+        right-angle-quote: »
+        right-double-quote: ”
+        right-single-quote: ’
+  - tables
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret:
+      insert: true
+      smart_insert: true
+      superscript: true
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.mark
+  - pymdownx.saneheaders
+  - pymdownx.smartsymbols:
+      arrows: true
+      care_of: false
+      copyright: true
+      fractions: true
+      notequal: true
+      ordinal_numbers: false
+      plusminus: true
+      registered: true
+      trademark: true
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tilde:
+      delete: true
+      smart_delete: false
+      subscript: false
+  - pymdownx.tasklist:
+      custom_checkbox: false
+  - mdx_steroids.keys:
+      camel_case: true
+      separator: ""
+      strict: false
+  #- mdx_steroids.kill_tags:
+  #    kill_empty:
+  #      - p
+  #    kill_known: true
+  #    normalize: false
+  - mdx_steroids.img_smart:
+      alt_figure: true
+      find: https://github.com/Fontlab/FontLabVI-help/blob/master/img/
+      repl_path: ../img/
+      repl_url: ../img/
+      cache: "img_smart.json"
+      lazy: true
+  - mdx_steroids.md_mako:
+      meta:
+        author: Fontlab Ltd.
+        beta: ^^New^^{.beta}
+        bug: ^^Fix^^{.new}
+        new: ^^New^^{.new}
+      python_block: mako-fontlab-8.py
+  #- pymdownx.highlight:
+  #    anchor_linenums: true
+  #    auto_title: true
+  #- pymdownx.inlinehilite

@@ -1,0 +1,15 @@
+{% extends "main.html" %}
+
+<!-- Site title -->
+{% block htmltitle %}
+<title>{{ config.site_name }}</title>
+{% endblock %}
+
+<!-- Theme-related style sheets -->
+{% block styles %} {{ super() }}
+
+<!-- Extra style sheet (can't be set in mkdocs.yml due to content hash) -->
+<link rel="stylesheet"
+      href="css/home.css" />
+
+{% endblock %}

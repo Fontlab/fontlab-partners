@@ -1,0 +1,117 @@
+.nav {
+    position: absolute;
+    top: 15px;
+    z-index: 99;
+    left: 0;
+    right: 0;
+}
+
+.uk-sticky-placeholder {
+    height: 0 !important;
+}
+
+.uk-main-wrap {
+    font-size: 0.7rem;
+}
+
+.top-wrap::before,
+.overlay-wrap::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    content: '';
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.top-images-height {
+    height: 100vh;
+    min-height: 460px;
+    transition: height 0.25s;
+    object-fit: fill;
+}
+
+.top-wrap-height {
+    height: 40vh;
+    min-height: 460px;
+    transition: height 0.25s;
+    object-fit: fill;
+}
+
+.uk-subnav-pill>*> :first-child {
+    padding: 0.5rem 1rem;
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+.top-container {
+    z-index: 2;
+}
+
+.uk-logo img {
+    height: 38px;
+}
+
+.subtitle-text {
+    font-size: 1em;
+    line-height: 1.3em;
+    opacity: 0.9;
+    margin-top: 0.1em;
+}
+
+.logos-grid img {
+    display: block;
+    width: 60px;
+    margin: 0 auto;
+    filter: grayscale(100%);
+    transition: filter 0.25s;
+}
+
+.logos-grid img:hover {
+    display: block;
+    width: 60px;
+    margin: 0 auto;
+    filter: grayscale(0);
+}
+
+.navbar-block {
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.navbar-block a {
+    font-weight: 500;
+}
+
+.navbar-block a:hover {
+    color: white;
+}
+
+.w-nav-link.w--current {
+    color: unset;
+}
+
+.app-title {
+    position: relative;
+    left: 1rem;
+}
+
+.app-title-icon:before {
+    padding: 0 1em;
+    content: "\00a0";
+    background-image: url(https://i.fontlab.com//app-icon/fontlab-8.png);
+    background-position: 0 center;
+    background-size: 1.4em;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -1.6em;
+    top: -0.2em;
+    line-height: 1.5em;
+}
+
+#hero-section {
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 2s ease-in;
+}
+

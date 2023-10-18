@@ -1,0 +1,57 @@
+# Python
+Markdown==3.3.7
+Jinja2<3.1
+mako>=1.2.0
+mkdocs[i18n]>=1.4.3
+lxml>=4.8.0
+future
+filetype
+imageio[pyav,ffmpeg]
+fire>=0.4.0
+materialx
+git+https://github.com/fontlabcom/flweb_mwf_gallery
+git+https://github.com/html5lib/html5lib-python # Force 3.10 compat
+htmlark
+
+# MkDocs Theme
+mkdocs-material>=8.2.9 # https://squidfunk.github.io/mkdocs-material/
+git+https://github.com/mkdocs/mkdocs-basic-theme # https://github.com/mkdocs/mkdocs-basic-theme
+./modules/mkdocs-material-insiders
+
+# Markdown extensions
+pymdown-extensions>=9.3
+git+https://github.com/twardoch/markdown-steroids.git
+mdx-breakless-lists
+mdx-wikilink-plus
+
+# NLP
+nltk
+spacy
+keybert[spacy]
+python-slugify>=6.1.2
+tiktoken
+git+https://github.com/boudinfl/pke.git
+split_markdown4gpt
+
+# MkDocs Plugins
+git+https://github.com/Andre601/mkdocs-pagenav-generator # https://github.com/Andre601/mkdocs-pagenav-generator
+git+https://github.com/twardoch/mkdocs-markdown-in-template-plugin # https://github.com/twardoch/mkdocs-markdown-in-template-plugin
+git+https://github.com/twardoch/mkdocs-text-export-plugin
+git+https://github.com/Guts/mkdocs-rss-plugin # https://github.com/Guts/mkdocs-rss-plugin
+mkdocs-add-teaser # https://github.com/wilhelmer/mkdocs-add-teaser
+mkdocs-autorefs # https://github.com/mkdocstrings/autorefs
+mkdocs-awesome-pages-plugin>=2.7.0 # https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin
+mkdocs-enumerate-headings-plugin # https://github.com/timvink/mkdocs-enumerate-headings-plugin
+mkdocs-ezlinks-plugin # https://github.com/orbikm/mkdocs-ezlinks-plugin
+mkdocs-import-statement-plugin # https://github.com/Rj40x40/mkdocs-import-statement-plugin
+mkdocs-include-markdown-plugin
+mkdocs-gen-files # https://github.com/oprypin/mkdocs-gen-files
+mkdocs-jupyter # https://github.com/danielfrg/mkdocs-jupyter
+mkdocs-macros-plugin # https://github.com/fralau/mkdocs_macros_plugin
+mkdocs-preview-links-plugin # https://github.com/Mara-Li/mkdocs-preview-links-plugin
+mkdocs-print-site-plugin # https://github.com/timvink/mkdocs-print-site-plugin
+mkdocs-redirects # https://github.com/mkdocs/mkdocs-redirects
+mkdocs-section-index # https://github.com/oprypin/mkdocs-section-index
+mkdocs-table-reader-plugin # https://github.com/timvink/mkdocs-table-reader-plugin
+mkdocs-with-pdf # https://github.com/orzih/mkdocs-with-pdf
+

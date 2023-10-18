@@ -1,0 +1,31 @@
+<section id="testimonials"
+         class="uk-cover-container overlay-wrap uk-label-danger uk-light">
+    <div class="uk-container uk-position-z-index uk-position-relative uk-section uk-section-xsmall uk-light uk-text-center">
+        <div class="uk-grid uk-flex-center">
+            <div class="uk-width-4-5@m"
+                 uk-parallax="y: 50,-50; easing: 0; media:@l">
+                <div class="uk-position-relative uk-visible-toggle uk-light"
+                     uk-slider="easing: cubic-bezier(.16,.75,.47,1); autoplay: false; autoplay-interval: 6000; pause-on-hover: true">
+                    <div class="uk-position-relative uk-visible-toggle uk-light"
+                         tabindex="-1">
+                        <a class="uk-position-top-left uk-position-small uk-margin-remove-top uk-visible@s"
+                           href="#"
+                           uk-slidenav-previous
+                           uk-slider-item="previous"></a>
+                        <a class="uk-position-top-right uk-position-small uk-margin-remove-top uk-visible@s"
+                           href="#"
+                           uk-slidenav-next
+                           uk-slider-item="next"></a>
+                        <h6 style="padding-top: 5px">What typeface designers say</h6>
+                        <ul class="uk-slider-items uk-child-width-1-1">
+                            {% include "hero/home/partials/testimonials_details.html" %}
+                        </ul>
+                    </div>
+                    <ul class="uk-slider-nav uk-dotnav uk-margin-remove-top uk-flex-center">
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

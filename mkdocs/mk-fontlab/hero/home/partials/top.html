@@ -1,0 +1,54 @@
+<!-- TOP CONTAINER -->
+<div class="hero-wrap uk-position-relative uk-light uk-background-secondary">
+    <div id="hero-images"
+         class="uk-cover-container uk-light uk-flex top-images-height uk-visible@m">
+
+        <video src="https://assets.website-files.com/59f8b0f378cc2d0001fd32e5/5c62dcef40cbe85183e04657_flvi-web-herofilm-360p-transcode.mp4"
+               width=""
+               height=""
+               uk-video="autoplay: inview; automute: true"
+               loop="true"
+               style="position: absolute;right: 0;bottom: 0;min-width: 100%;min-height: 100%;filter: blur(7px);"></video>
+        <div class="uk-container">
+            <img src="https://lab.fontlab.com/temp/fl8head-01.svg"
+                 style="position: absolute;left: 50%;transform: translate(-50%, 0); top: 48px; min-height: 100%;max-height: 100%;object-fit:cover; mix-blend-mode:screen;">
+        </div>
+    </div>
+    <div id="hero-section"
+         class="uk-section uk-padding-remove-vertical"
+         style="position: sticky; bottom: 0;background-color: rgba(34,34,34,0.4);">
+        <div uk-grid
+             class="uk-container uk-margin-medium-top uk-margin-medium-bottom uk-grid-medium uk-margin-auto uk-flex uk-flex-center uk-flex-middle">
+            <div class="">
+                <h1 id="app-title-DISABLED"
+                    class="uk-margin-remove-top uk-heading-xlarge"
+                    style="">
+                    FontLab 8
+                </h1>
+            </div>
+            <div uk-grid
+                 class="uk-grid-small uk-text-nowrap uk-flex-center">
+                <div class="">
+                    <a href="#download"
+                       title="Try free"
+                       class="uk-button uk-button-default uk-box-shadow-hover-large"
+                       uk-tooltip="pos: top-center; title: Click to download the free fully-functional 10-day trial version of FontLab 8 for Mac or Windows">Try free</a>
+                </div>
+                <div class="">
+                    <a href="https://fontlab.onfastspring.com/fl7/"
+                       title="Buy FontLab 8"
+                       class="uk-button uk-button-danger uk-box-shadow-hover-large"
+                       type="button">
+                        Buy FontLab 8
+                    </a>
+                    <div id="fl-dropdown"
+                         uk-dropdown
+                         class="uk-light uk-background-secondary">
+                        {% include "hero/home/partials/buy.html" %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /TOP CONTAINER -->
