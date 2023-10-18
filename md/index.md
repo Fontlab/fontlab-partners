@@ -2,7 +2,7 @@
 
 Publicly available materials (including press kit) for [Fontlab Ltd.](https://www.fontlab.com/) partners
 
-_Under construction_
+_Under construction._
 
 ## Download
 

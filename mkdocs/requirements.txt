@@ -16,7 +16,6 @@ htmlark
 # MkDocs Theme
 mkdocs-material>=8.2.9 # https://squidfunk.github.io/mkdocs-material/
 git+https://github.com/mkdocs/mkdocs-basic-theme # https://github.com/mkdocs/mkdocs-basic-theme
-./modules/mkdocs-material-insiders
 
 # Markdown extensions
 pymdown-extensions>=9.3
