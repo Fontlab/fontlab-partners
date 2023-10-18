@@ -1,5 +1,5 @@
-docs_dir: md/
-site_dir: site/
+docs_dir: ../md/
+site_dir: ../site/
 use_directory_urls: true
 
 extra:
