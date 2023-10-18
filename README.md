@@ -4,7 +4,7 @@ Publicly available materials (including press kit) for [Fontlab Ltd.](https://ww
 
 ## Download
 
-### [Download ZIP](https://github.com/Fontlab/marketing-materials/raw/main/download/fontlab-marketing-materials.zip) (22 MB)
+### [Download ZIP](https://github.com/Fontlab/fontlab-partners/raw/main/download/fontlab-marketing-materials.zip) (22 MB)
 
 In the above ZIP, you will find: 
 
