@@ -2,6 +2,8 @@
 
 Publicly available materials (including press kit) for [Fontlab Ltd.](https://www.fontlab.com/) partners
 
+_Under construction_
+
 ## Download
 
 ### [Download ZIP](https://github.com/Fontlab/fontlab-partners/raw/main/download/fontlab-marketing-materials.zip) (22 MB)
