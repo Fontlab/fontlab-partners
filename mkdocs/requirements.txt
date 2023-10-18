@@ -24,13 +24,7 @@ mdx-breakless-lists
 mdx-wikilink-plus
 
 # NLP
-nltk
-spacy
-keybert[spacy]
 python-slugify>=6.1.2
-tiktoken
-git+https://github.com/boudinfl/pke.git
-split_markdown4gpt
 
 # MkDocs Plugins
 git+https://github.com/Andre601/mkdocs-pagenav-generator # https://github.com/Andre601/mkdocs-pagenav-generator
