@@ -1,15 +1,20 @@
 # Marketing materials for Fontlab apps 
 
-Publicly available marketing materials for [Fontlab Ltd.](https://www.fontlab.com/) apps. 
+Publicly available marketing materials / “press kit” for [Fontlab Ltd.](https://www.fontlab.com/) apps. 
 
 ## Download
 
 ### [Download ZIP](https://github.com/Fontlab/marketing-materials/raw/main/download/fontlab-marketing-materials.zip) (22 MB)
 
-The above ZIP contains the Fontlab Ltd. logo (in the `company` folder), as well as app icons, screenshots and graphics for the [FontLab 8](https://www.fontlab.com/font-editor/fontlab/) professional font editor, and for the [TransType 4](https://www.fontlab.com/font-converter/transtype/) font converter. 
+In the above ZIP, you will find: 
 
----
+- `company` folder: the Fontlab Ltd. company logo as a simple font, and as vector and bitmap graphics
+- `fontlab-8` folder: graphical assets for the [FontLab 8](https://www.fontlab.com/font-editor/fontlab/) professional font editor: app icon, screenshots and additional graphics
+- `transtype-4` folder: graphical assets for the [TransType 4](https://www.fontlab.com/font-converter/transtype/) font converter: app icon, screenshots and additional graphics 
 
-Copyright (c) 2013-2023 by Fontlab Ltd. Licensed to authorized users only. 
+## License
 
+The files provided in this repository are licensed for promotional and press purposes only.  
+
+All materials except where explicitly stated are copyright (c) 2013-2023 by Fontlab Ltd. 
 
