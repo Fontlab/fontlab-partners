@@ -1,0 +1,83 @@
+@charset "UTF-8";
+:root > * {
+  --md-code-bg-color: rgba(0, 1, 2, 0.03);
+  --md-primary-fg-color: #222222;
+}
+
+.container2 > * {
+  font-size: 5rem;
+  font-variation-settings: "wght" var(--text-wght), "wdth" var(--text-wdth),
+    "opsz" var(--text-opsz), "GRAD" var(--text-GRAD);
+}
+
+body {
+  --md-text-font-family: "system-ui", BlinkMacSystemFont, -apple-system,
+    "Roboto", Helvetica, Arial, sans-serif;
+  --md-serif-font-family: "Literata", "Georgia", serif;
+  --md-serifita-font-family: "IBM Plex Serif", "Georgia", serif;
+  --md-head-font-family: "Roboto Flex", "system-ui", -apple-system,
+    BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+  --md-cond-font-family: "Roboto Condensed", var(--md-text-font-family, _);
+  --md-smcp-font-family: var(--md-head-font-family, _);
+  --md-smcp-letter-spacing: 0.07em;
+  --md-font-variation-opsz: 14;
+  --md-font-variation-slnt: 0;
+  --md-font-variation-GRAD: 0;
+  --md-font-variation-wdth: 100;
+  --md-font-variation-XOPQ: 96;
+  --md-font-variation-XTRA: 468;
+  --md-font-variation-YOPQ: 79;
+  --md-font-variation-YTAS: 750;
+  --md-font-variation-YTDE: -203;
+  --md-font-variation-YTFI: 738;
+  --md-font-variation-YTLC: 514;
+  --md-font-variation-YTUC: 712;
+  --md-head-font-variation-opsz: var(--md-font-variation-opsz);
+  --md-head-font-variation-slnt: var(--md-font-variation-slnt);
+  --md-head-font-variation-GRAD: var(--md-font-variation-GRAD);
+  --md-head-font-variation-wdth: 140;
+  --md-head-font-variation-XOPQ: var(--md-font-variation-XOPQ);
+  --md-head-font-variation-XTRA: var(--md-font-variation-XTRA);
+  --md-head-font-variation-YOPQ: var(--md-font-variation-YOPQ);
+  --md-head-font-variation-YTAS: 663;
+  --md-head-font-variation-YTDE: -180;
+  --md-head-font-variation-YTFI: 676;
+  --md-head-font-variation-YTLC: var(--md-font-variation-YTLC);
+  --md-head-font-variation-YTUC: 650;
+  --md-smcp-font-variation-opsz: 8;
+  --md-smcp-font-variation-slnt: var(--md-font-variation-slnt);
+  --md-smcp-font-variation-GRAD: var(--md-font-variation-GRAD);
+  --md-smcp-font-variation-wdth: 120;
+  --md-smcp-font-variation-XOPQ: var(--md-font-variation-XOPQ);
+  --md-smcp-font-variation-XTRA: var(--md-font-variation-XTRA);
+  --md-smcp-font-variation-YOPQ: var(--md-font-variation-YOPQ);
+  --md-smcp-font-variation-YTAS: var(--md-font-variation-YTAS);
+  --md-smcp-font-variation-YTDE: var(--md-font-variation-YTDE);
+  --md-smcp-font-variation-YTFI: 676;
+  --md-smcp-font-variation-YTLC: var(--md-font-variation-YTLC);
+  --md-smcp-font-variation-YTUC: 650;
+  --md-head-font-variation-settings: "opsz" var(--md-head-font-variation-opsz),
+    "slnt" var(--md-head-font-variation-slnt),
+    "GRAD" var(--md-head-font-variation-GRAD),
+    "wdth" var(--md-head-font-variation-wdth),
+    "XOPQ" var(--md-head-font-variation-XOPQ),
+    "XTRA" var(--md-head-font-variation-XTRA),
+    "YOPQ" var(--md-head-font-variation-YOPQ),
+    "YTAS" var(--md-head-font-variation-YTAS),
+    "YTDE" var(--md-head-font-variation-YTDE),
+    "YTFI" var(--md-head-font-variation-YTFI),
+    "YTLC" var(--md-head-font-variation-YTLC),
+    "YTUC" var(--md-head-font-variation-YTUC);
+  --md-smcp-font-variation-settings: "opsz" var(--md-smcp-font-variation-opsz),
+    "slnt" var(--md-smcp-font-variation-slnt),
+    "GRAD" var(--md-smcp-font-variation-GRAD),
+    "wdth" var(--md-smcp-font-variation-wdth),
+    "XOPQ" var(--md-smcp-font-variation-XOPQ),
+    "XTRA" var(--md-smcp-font-variation-XTRA),
+    "YOPQ" var(--md-smcp-font-variation-YOPQ),
+    "YTAS" var(--md-smcp-font-variation-YTAS),
+    "YTDE" var(--md-smcp-font-variation-YTDE),
+    "YTFI" var(--md-smcp-font-variation-YTFI),
+    "YTLC" var(--md-smcp-font-variation-YTLC),
+    "YTUC" var(--md-smcp-font-variation-YTUC);
+}

@@ -1,0 +1,11 @@
+.md-nav--lifted>.md-nav__list>.md-nav__item,
+.md-nav--lifted>.md-nav__list>.md-nav__item--nested,
+.md-nav--lifted>.md-nav__title {
+    display: unset;
+}
+
+@media screen and (min-width: 76.25em) {
+    .md-nav__icon {
+        display: none;
+    }
+}
