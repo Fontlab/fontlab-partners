@@ -1,8 +1,6 @@
 # FontLab Partners site
 
-Publicly available materials (including press kit) for [Fontlab Ltd.](https://www.fontlab.com/) partners
-
-_Under construction._
+Publicly available materials (including press kit) for [Fontlab Ltd.](https://www.fontlab.com/) partners.
 
 ## Downloadable press kit
 
