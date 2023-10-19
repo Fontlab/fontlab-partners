@@ -1061,6 +1061,12 @@ a:hover {
     color: unset;
 }
 
+.md-typeset a.uk-button-danger,
+.md-typeset a.uk-button-primary,
+.md-typeset a.uk-button-secondary {
+    color: white;
+}
+
 .md-typeset .uk-card h1,
 .md-typeset .uk-card h2,
 .md-typeset .uk-card h3,

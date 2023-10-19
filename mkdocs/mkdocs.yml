@@ -6,7 +6,7 @@ extra:
   homepage: https://partners.fontlab.com/
 
 # Project information
-site_name: FontLab Partners site
+site_name: FontLab Partners
 site_description: Materials for FontLab partners, affiliates and distributors
 site_url: https://partners.fontlab.com/
 
@@ -118,6 +118,9 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.mark
   - pymdownx.saneheaders
   - pymdownx.smartsymbols:
