@@ -16,11 +16,11 @@ The FontLab press kit is a ZIP archive (approx. 22 MB) that contains the followi
 
 Unless otherwise indicated, all materials provided on this site are _Copyright © 2013-2023 Fontlab Ltd._ These materials are licensed exclusively for legitimate promotional, press, or publicity purposes under the following terms:
 
-1. **Sharing and Redistribution.** You are permitted to share, copy, and redistribute the materials in any medium or format.
+1. **Sharing and Redistribution.** You may share, copy, and redistribute the materials in any medium or format.
 
 2. **Adaptation of Textual Materials.** You may adapt, translate, or re-use the text provided on this site, provided that such adaptations, translations, or re-use do not misrepresent, disparage, or harm the reputation of Fontlab Ltd. or its products.
 
-3. **Use of Graphical Assets.** The logos, icons, and other graphical assets provided on this site may not be modified or altered, except for cropping, re-coloring, or other adaptations necessary for the medium in which they will be used.
+3. **Use of Graphical or Video Assets.** You must not modify or alter the logos, icons, and other graphical or video assets provided on this site, except for cropping, re-coloring, or other adaptations necessary for the medium in which they will be used.
 
 Any use of the materials beyond the scope of this license requires the explicit written permission of Fontlab Ltd. Please contact Fontlab Ltd. at [https://www.fontlab.com/contact/](https://www.fontlab.com/contact/) for permissions or further information.
 
