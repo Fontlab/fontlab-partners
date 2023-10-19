@@ -3,12 +3,12 @@ site_dir: ../site/
 use_directory_urls: true
 
 extra:
-  homepage: https://help.fontlab.com/fontlab/8/
+  homepage: https://partners.fontlab.com/
 
 # Project information
-site_name: FontLab 8
-site_description: FontLab 8 Help site
-site_url: https://help.fontlab.com/fontlab/8/
+site_name: FontLab Partners site
+site_description: Materials for FontLab partners, affiliates and distributors
+site_url: https://partners.fontlab.com/
 
 
 extra:
@@ -22,7 +22,7 @@ extra:
 site_author: Fontlab Ltd.
 
 # Copyright
-copyright: Copyright © 2016–2023 <a target="_blank" href="https://www.fontlab.com/">Fontlab Ltd.</a>
+copyright: Copyright © 2013–2023 <a target="_blank" href="https://www.fontlab.com/">Fontlab Ltd.</a>
 
 # Documentation and theme
 theme:
